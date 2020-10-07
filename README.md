@@ -12,7 +12,7 @@ TinySpider框架具备下以特点：
 
 框架部件定义:
   * IScheduler:         任务调度器,负责对线程和URL任务进行分配调度。
-  * IUrlStore:          URL存放器,负责管理爬到的URL。
+  * IUrlStore:          URL存放器,负责管理需要爬的URL。
   * IDownloader:        下载器,负责下载目标URL的HTML源页面。
   * IHtmlParser:        解析器,负责解析HTML页面代码,从中提取出需要爬的URL,以及页面上你关注的内容。(必须由使用者实现)
   * IPipeline:          处理管线,负责接收解析器提取出来的内容。(必须由使用者实现)
