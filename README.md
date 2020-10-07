@@ -22,6 +22,13 @@ TinySpider框架具备下以特点：
 ***
 
 # 使用例程：
+
+  
+  
+实现IHtmlParser和IPipeline
+  
+ 
+
 ```cs
     /// <summary>
     /// 实现HTML解析接口
