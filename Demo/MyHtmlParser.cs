@@ -36,7 +36,7 @@ namespace Demo
 
 
                     //限定一下uri范围
-                    //if (uri.AbsoluteUri.Contains("目标域名.com"))
+                    if (uri.AbsoluteUri.Contains("sohu.com/"))
                     {
                         //输出给调度器
                         links.Add(uri);
